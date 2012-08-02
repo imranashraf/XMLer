@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<q2:profiles>
+    <q2:application name="canny">
+        <q2:functions />
+        <q2:QDUGraph>
+            <q2:channel producer="hw_gaussian_nms" consumer="hw_gaussian_nms">
+                <q2:hUnMA>2033</q2:hUnMA>
+                <q2:hBytes>9921221</q2:hBytes>
+                <q2:hValues>342513</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="hw_gaussian_nms1" consumer="hw_gaussian_nms">
+                <q2:hUnMA>2033</q2:hUnMA>
+                <q2:hBytes>9921221</q2:hBytes>
+                <q2:hValues>342513</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="hw_gaussian_nms2" consumer="hw_gaussian_nms">
+                <q2:hUnMA>2033</q2:hUnMA>
+                <q2:hBytes>9921221</q2:hBytes>
+                <q2:hValues>342513</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="prod" consumer="cons">
+                <q2:hUnMA>11</q2:hUnMA>
+                <q2:hBytes>12</q2:hBytes>
+                <q2:hValues>13</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="prod1" consumer="cons1">
+                <q2:hUnMA>11</q2:hUnMA>
+                <q2:hBytes>12</q2:hBytes>
+                <q2:hValues>13</q2:hValues>
+            </q2:channel>
+        </q2:QDUGraph>
+        <q2:CallGraph />
+    </q2:application>
+</q2:profiles>
