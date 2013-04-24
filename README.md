@@ -1,4 +1,4 @@
 XMLer
 =====
 
-Tiny XML based XML utility
+Tiny XML based simple utility which can be used as a hello world application to XML parsing.
